@@ -1,0 +1,13 @@
+<h2>SignalR Example</h2>
+<table>
+  <tr>
+    <th>Timestamp</th>
+    <th>From</th>
+    <th>Message</th>
+  </tr>
+  <tr *ngFor="let msg of msgs">
+    <td>{{msg.timestamp}}</td>
+    <td>{{msg.from}}</td>
+    <td>{{msg.message}}</td>
+  </tr>
+</table>
